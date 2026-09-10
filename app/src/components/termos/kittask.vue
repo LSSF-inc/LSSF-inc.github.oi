@@ -19,6 +19,14 @@
                 <li><router-link class="dropdown-item" to="/termos/kittask">KitTask</router-link></li>
               </ul>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Política de Privacidade
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark glass-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                <li><router-link class="dropdown-item" to="/privacidade/kittask">KitTask</router-link></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
@@ -62,11 +70,30 @@
           <hr class="my-4">
           
           <h5 class="mt-4"><strong>Contate-nos</strong></h5>
-          <p>If you have any questions or suggestions about the Terms and Conditions, please do not hesitate to contact the Service Provider at <a href="mailto:suportlssfapp@gmail.com">suportlssfapp@gmail.com</a>.</p>
+          <p>Caso tenha dúvidas ou sugestões sobre os Termos e Condições, não hesite em entrar em contato com o Prestador de Serviços pelo e-mail <a href="mailto:suportlssfapp@gmail.com">suportlssfapp@gmail.com</a>.</p>
           <p><small>Esta página de Termos e Condições foi gerada por <a href="https://app-privacy-policy-generator.nisrulz.com/" target="_blank" rel="noopener noreferrer">Gerador de Política de Privacidade do App.</a></small></p>
         </div>
       </div>
     </div>
+
+    <footer class="site-footer text-center py-5 mt-5">
+      <div class="container">
+        <hr class="my-5 border-secondary opacity-25">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="fw-bold mb-4 text-white">Contato</h5>
+            <p class="mb-2 fs-5">
+              <a href="mailto:contato.lssf.inc@gmail.com" class="text-secondary text-decoration-none hover-white transition-all">contato.lssf.inc@gmail.com</a>
+            </p>
+            <p class="mb-0 fs-5">
+              <a href="https://www.linkedin.com/in/lucas-dos-santos-francisco/" target="_blank" rel="noopener noreferrer" class="text-secondary text-decoration-none hover-white transition-all">LinkedIn: LSSF Studios</a>
+            </p>
+          </div>
+        </div>
+        <hr class="my-5 border-secondary opacity-25">
+        <p class="small mb-0 text-secondary">&copy; 2024 LSSF Studios. Todos os direitos reservados.</p>
+      </div>
+    </footer>
   </div>
 </template>
 

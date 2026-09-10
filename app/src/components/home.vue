@@ -16,6 +16,14 @@
                 <li><router-link class="dropdown-item" to="/termos/kittask">KitTask</router-link></li>
               </ul>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Política de Privacidade
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark glass-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                <li><router-link class="dropdown-item" to="/privacidade/kittask">KitTask</router-link></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
